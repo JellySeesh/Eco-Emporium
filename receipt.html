@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link rel="stylesheet" href="receipt.css">
+</head>
+<body>
+    <header>
+        <img src="eco_logo.png" alt="Company Logo" id="company-logo">
+        <h1>Receipt</h1>
+    </header>
+    
+    <section class="receipt">
+        <div class="receipt-header">
+            <h2>Thank You for Your Purchase!</h2>
+        </div>
+        
+        <div class="receipt-summary">
+            <h3>Order Summary</h3>
+            <p><strong>Product Name:</strong> <span id="product-name"></span></p>
+            <p><strong>Price:</strong> <span id="price"></span></p>
+            <p><strong>GST (18%):</strong> <span id="gst"></span></p>
+            <p><strong>Total Amount:</strong> <span id="total"></span></p>
+        </div>
+        
+        <div class="billing-info">
+            <h3>Billing Information</h3>
+            <p><strong>Address:</strong> <span id="address"></span></p>
+            <p><strong>Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Payment Method:</strong> <span id="payment-method"></span></p>
+        </div>
+        
+        <div class="receipt-footer">
+            <button id="continue-shopping-button">Continue Shopping</button>
+        </div>
+    </section>
+    
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    
+    <script src="receipt.js"></script>
+</body>
+</html>
+

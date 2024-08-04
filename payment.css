@@ -1,0 +1,47 @@
+/* Basic styles for payment page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+header {
+    background: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.payment-summary {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.billing-info {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+#confirm-payment-button {
+    background: #1ab394;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

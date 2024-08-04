@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="product_listing_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="form-container">
+            <h1>Product Listing</h1>
+            <form>
+                <section class="product-images">
+                    <h2>Upload Images</h2>
+                    <div class="input-group">
+                        <label for="product-images">Select Images</label>
+                        <input type="file" id="product-images" name="product-images" multiple required>
+                    </div>
+                </section>
+                
+                <section class="product-details">
+                    <h2>Product Details</h2>
+                    <div class="input-group">
+                        <label for="product-name">Product Name</label>
+                        <input type="text" id="product-name" name="product-name" placeholder="Enter product name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="product-price">Price</label>
+                        <input type="number" id="product-price" name="product-price" placeholder="Enter product price" required>
+                    </div>
+                </section>
+                
+                <section class="sustainability-info">
+                    <h2>Sustainability Info</h2>
+                    <div class="input-group">
+                        <label for="sustainability-details">Details</label>
+                        <textarea id="sustainability-details" name="sustainability-details" rows="4" placeholder="Enter sustainability details" required></textarea>
+                    </div>
+                </section>
+
+                <section class="stock-info">
+                    <h2>Stock Info</h2>
+                    <div class="input-group">
+                        <label for="stock-quantity">Stock Quantity</label>
+                        <input type="number" id="stock-quantity" name="stock-quantity" placeholder="Enter stock quantity" required>
+                    </div>
+                </section>
+
+                <button type="submit">Publish Listing</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

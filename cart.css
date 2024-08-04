@@ -1,0 +1,59 @@
+/* Basic styles for cart page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
+
+header {
+    background: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cart-items {
+    padding: 20px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.quantity-input {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.remove-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+#checkout-button {
+    background: #1ab394;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#continue-shopping-button {
+    background: rgb(172, 125, 43);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

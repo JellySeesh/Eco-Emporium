@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Details</h1>
+    </header>
+    
+    <section class="payment">
+        <div class="payment-summary">
+            <h2>Order Summary</h2>
+            <p>Product Name: <span id="product-name"></span></p>
+            <p>Price: <span id="price"></span></p>
+            <p>GST (18%): <span id="gst"></span></p>
+            <p>Total Amount: <span id="total"></span></p>
+        </div>
+        
+        <div class="billing-info">
+            <h2>Billing Information</h2>
+            <form id="billing-form">
+                <label for="address">Address:</label>
+                <input type="text" id="address" required><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" required><br>
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" required>
+                    <option value="upi">UPI</option>
+                    <option value="cod">Cash on Delivery</option>
+                    <option value="card">Credit/Debit Card</option>
+                </select><br>
+                <button type="submit" id="confirm-payment-button">Confirm Payment</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    
+    <script src="payment.js"></script>
+</body>
+</html>
